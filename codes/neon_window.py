@@ -111,6 +111,8 @@ def write_lines(text):
     for i in range(ny):
         write_line(yc + dy * i, text_list[i], font, image, 0, c[i])
 
+    image = image.filter(ImageFilter.GaussianBlur(10))
+
     for i in range(ny):
         write_line(yc + dy * i, text_list[i], font, image, 0, c[i])
 
