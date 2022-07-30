@@ -1,8 +1,6 @@
 import tkinter as tk
 import time
 import random
-import multiprocessing
-import subprocess
 from PIL import Image, ImageTk, ImageDraw, ImageFont, ImageFilter
 
 color = [[(255, 177, 177), (255, 220, 220)],
